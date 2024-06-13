@@ -24,7 +24,7 @@ export default function App() {
           value={pesquisa}
           onChangeText={setpesquisa}
         />
-        <TouchableOpacity style={estilos.botao}>
+        <TouchableOpacity style={estilos.botao} onPress={pesquisar}>
           <Text style={estilos.textoBotao}>Pesquisar</Text>
         </TouchableOpacity>
       </View>

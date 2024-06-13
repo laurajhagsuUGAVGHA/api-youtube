@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'SUA_CHAVE_API_YOUTUBE';
+const API_KEY = 'AIzaSyCP9mce_FRBXItcO15YZxH8ih8nYX6B0UA';
 
 export const buscarVideos = async (query) => {
   try {
